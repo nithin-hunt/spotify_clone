@@ -3,21 +3,19 @@
 @tailwind utilities;
 
 .grid-template-areas {
-   grid-template-areas:
+  grid-template-areas:
     "sidenav main"
     "now-playing now-playing";
 }
-  
+
 .grid-template-areas .content {
-    grid-area: main;
+  grid-area: main;
 }
-
 .grid-template-areas .sidenav {
-    grid-area: sidenav;
+  grid-area: sidenav;
 }
-
 .grid-template-areas .now-playing {
-    grid-area: now-playing;
+  grid-area: now-playing;
 }
 
 .track:hover .track-no,
